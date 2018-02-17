@@ -1,14 +1,14 @@
 const config = {}
 
 config.MongoStore = {
-  secret: "yoursecret",
-  url: "mongodb://icehax:tommaso.celano01@ds159344.mlab.com:59344/flecad"
+  secret: "FTESP",
+  url: "mongodb://boletimpm:pmboletim@ds239638.mlab.com:39638/boletimpm"
 }
 config.text = {
-	sheriff: "here goes the name of your sheriff department",
-	pd: "here goes the name of your police department",
-	ems: "here goes the name of your FIRE RESCUE department",
-	highway: "here goes the name of your highway patrol department",
+	sheriff: "FTESP - Força Tática",
+	pd: "PMESP - Rádio Patrulha",
+	ems: "SAMU - Serviço de Atendimento Médico de Urgência",
+	highway: "ROCAM - Rondas Ostensiva Com Apóio de Motos",
 	sheriffbackground: "here goes a URL TO THE BACKGROUND IMAGE of your sheriff department",
 	pdbackground: "here goes a URL TO THE BACKGROUND IMAGE of your police department",
 	emsbackground: "here goes a URL TO THE BACKGROUND IMAGE of your fire rescue department",
@@ -28,8 +28,8 @@ config.text = {
 }
 
 config.admin = {
-	username: "admin username",
-	password: "admin password"
+	username: "moraes",
+	password: "moura18"
 }
 
 module.exports = config
